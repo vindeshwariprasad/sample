@@ -47,6 +47,10 @@ and it get posted to twitter.
 
 
 Wanted to change instagram url just go to index.js file and update username :
+
+
+
+
 fetchLatestInstagramPost('bbcnews').then(post => {
     if (post) {
         console.log('Latest Post Caption:', post.caption);
@@ -55,6 +59,8 @@ fetchLatestInstagramPost('bbcnews').then(post => {
         console.log('Failed to fetch post.');
     }
 });
+
+
 
 change username according to need.
 
